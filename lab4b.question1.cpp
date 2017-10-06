@@ -2,10 +2,10 @@
 using namespace std;
 int power(int x,int n)
 {  int p;
-	if (n==0)
-	p=1;
+	if (n==0) {
+          p=1;  }
 	else
-	  p=x*power(x,n-1);
+	{ p=x*power(x,n-1);  }
 	return p;
 }
 int main(){
