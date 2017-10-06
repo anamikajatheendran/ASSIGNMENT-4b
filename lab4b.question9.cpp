@@ -2,10 +2,10 @@
 using namespace std;
 int fact(int n)
 {  int p;
-   if (n==0)
-    p=1;
-   else
-     p=n*fact(n-1);
+   if (n==0) {
+    p=1; }
+   else {
+     p=n*fact(n-1); }
    return p;
 }
 int main(){
