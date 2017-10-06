@@ -2,10 +2,10 @@
 using namespace std;
 int sum(int n)
 {  int p;
-   if (n==0)
-      p=n;
-   else
-      p=n+sum(n-1);
+   if (n==0) {
+      p=n; }
+   else {
+      p=n+sum(n-1); }
    return p;
 }
 int main(){
